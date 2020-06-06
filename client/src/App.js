@@ -3,7 +3,7 @@ import axios from "axios";
 import MovieList from "./Movies/MovieList";
 import SavedList from "./Movies/SavedList";
 import Movie from "./Movies/Movie";
-import { Route, Link, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 const App = () => {
   const [savedList, setSavedList] = useState([]);
